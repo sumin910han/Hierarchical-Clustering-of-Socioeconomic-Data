@@ -2,7 +2,7 @@ This project involves performing hierarchical clustering on socioeconomic data f
 
 ## Project Description
 
-The primary objective of this project is to process real-world socioeconomic data, implement hierarchical clustering, and visualize the clustering process. This project focuses on hierarchical agglomerative clustering (HAC), a method of cluster analysis which seeks to build a hierarchy of clusters.
+The primary objective of this project is to process real-world socioeconomic data, implement hierarchical clustering, and visualize the clustering process. This project focuses on hierarchical agglomerative clustering (HAC), a method of cluster analysis that seeks to build a hierarchy of clusters.
 
 ## Data Description
 Each country in the dataset is described by a row in a CSV file, containing the following six socioeconomic statistics:
@@ -28,6 +28,3 @@ The clustering process involves several key steps:
 HAC is a bottom-up clustering method where each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy. Complete linkage (or maximum linkage) is used, where the distance between two clusters is defined as the maximum distance between any single point in the first cluster and any single point in the second cluster.
 
 The goal is to create a dendrogram, which is a tree diagram used to visualize the arrangement of the clusters produced by the clustering algorithm.
-
-## Image
-![screenshot](/Users/hansumin/desktop/Hierarchical-Clustering-of-Socioeconomic-Data-image.png)
