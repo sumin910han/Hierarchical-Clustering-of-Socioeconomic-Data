@@ -30,4 +30,4 @@ HAC is a bottom-up clustering method where each observation starts in its own cl
 The goal is to create a dendrogram, which is a tree diagram used to visualize the arrangement of the clusters produced by the clustering algorithm.
 
 ## Image
-![alt text](/Users/hansumin/desktop/Hierarchical-Clustering-of-Socioeconomic-Data-image.png)
+![screenshot](/Users/hansumin/desktop/Hierarchical-Clustering-of-Socioeconomic-Data-image.png)
