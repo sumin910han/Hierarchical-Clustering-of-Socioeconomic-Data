@@ -28,3 +28,7 @@ The clustering process involves several key steps:
 HAC is a bottom-up clustering method where each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy. Complete linkage (or maximum linkage) is used, where the distance between two clusters is defined as the maximum distance between any single point in the first cluster and any single point in the second cluster.
 
 The goal is to create a dendrogram, which is a tree diagram used to visualize the arrangement of the clusters produced by the clustering algorithm.
+
+<img width="632" alt="Hierarchical-Clustering-of-Socioeconomic-Data-image" src="https://github.com/sumin910han/Hierarchical-Clustering-of-Socioeconomic-Data/assets/153245618/6c81281b-e0b6-493b-8ffa-b4cfc6387303">
+<img width="632" alt="Hierarchical-Clustering-of-Socioeconomic-Data-image" src="https://github.com/sumin910han/Hierarchical-Clustering-of-Socioeconomic-Data/assets/153245618/6c81281b-e0b6-493b-8ffa-b4cfc6387303">
+
