@@ -21,14 +21,13 @@ The clustering process involves several key steps:
   1. Data Loading: Reading the data from a CSV file.
   2. Feature Calculation: Converting each country's data into a six-dimensional feature vector.
   3. Normalization: Normalizing the feature vectors to ensure that each feature contributes equally to the distance calculations.
-  4. Hierarchical Clustering: Performing hierarchical agglomerative clustering using complete linkage to group countries based on their socioeconomic similarity.
+  4. Hierarchical Clustering: Performing hierarchical agglomerative clustering using complete linkage to group countries based on socioeconomic similarity.
   5. Visualization: Creating a dendrogram to visualize the hierarchical clustering.
 
 ## Hierarchical Agglomerative Clustering (HAC)
-HAC is a bottom-up clustering method where each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy. Complete linkage (or maximum linkage) is used, where the distance between two clusters is defined as the maximum distance between any single point in the first cluster and any single point in the second cluster.
+HAC is a bottom-up clustering method where each observation starts in its cluster, and pairs of clusters are merged as one moves up the hierarchy. Complete linkage (or maximum linkage) is used, where the distance between two clusters is defined as the maximum distance between any single point in the first cluster and any single point in the second cluster.
 
 The goal is to create a dendrogram, which is a tree diagram used to visualize the arrangement of the clusters produced by the clustering algorithm.
 
-<img width="632" alt="Hierarchical-Clustering-of-Socioeconomic-Data-image" src="https://github.com/sumin910han/Hierarchical-Clustering-of-Socioeconomic-Data/assets/153245618/6c81281b-e0b6-493b-8ffa-b4cfc6387303">
 <img width="632" alt="Hierarchical-Clustering-of-Socioeconomic-Data-image" src="https://github.com/sumin910han/Hierarchical-Clustering-of-Socioeconomic-Data/assets/153245618/6c81281b-e0b6-493b-8ffa-b4cfc6387303">
 
